@@ -3,4 +3,4 @@ if num <= 0:
     print("Numero inválido...")
 else:
     for i in range(1,num+1):
-        print(i, end=" ")
+        print(f"{i:02d}", end=" ")
